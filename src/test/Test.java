@@ -1,4 +1,4 @@
-package pdfmark;
+package test;
 
 import java.io.File;
 import java.util.regex.Matcher;
@@ -7,6 +7,8 @@ import java.util.regex.Pattern;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDDocumentOutline;
 import org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem;
+
+import pdfmark.FileUtils;
 
 public class Test {
 	public static void main(String[] args) throws Exception {
